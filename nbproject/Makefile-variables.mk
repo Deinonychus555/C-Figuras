@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux-x86
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
-CND_ARTIFACT_NAME_Debug=c__
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/c__
+CND_ARTIFACT_NAME_Debug=c__figuras
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/c__figuras
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Debug=c++.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/c++.tar
+CND_PACKAGE_NAME_Debug=c++figuras.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/c++figuras.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
-CND_ARTIFACT_NAME_Release=c__
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/c__
+CND_ARTIFACT_NAME_Release=c__figuras
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/c__figuras
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=c++.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/c++.tar
+CND_PACKAGE_NAME_Release=c++figuras.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/c++figuras.tar
 #
 # include compiler specific variables
 #

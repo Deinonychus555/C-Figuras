@@ -40,7 +40,6 @@
       <itemPath>grupo.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
       <itemPath>matriz.cpp</itemPath>
-      <itemPath>newfile.c</itemPath>
       <itemPath>punto.cpp</itemPath>
       <itemPath>rectangulo.cpp</itemPath>
       <itemPath>rgb.cpp</itemPath>
@@ -116,8 +115,6 @@
       <item path="matriz.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="matriz.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="newfile.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="punto.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -205,8 +202,6 @@
       <item path="matriz.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="matriz.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="newfile.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="punto.cpp" ex="false" tool="1" flavor2="0">
       </item>

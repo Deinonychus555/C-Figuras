@@ -47,7 +47,6 @@ OBJECTFILES= \
 	${OBJECTDIR}/grupo.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/matriz.o \
-	${OBJECTDIR}/newfile.o \
 	${OBJECTDIR}/punto.o \
 	${OBJECTDIR}/rectangulo.o \
 	${OBJECTDIR}/rgb.o \
@@ -73,11 +72,11 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c__
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c__figuras
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c__: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c__figuras: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c__ ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c__figuras ${OBJECTFILES} ${LDLIBSOPTIONS}
 
 ${OBJECTDIR}/area.o: area.cpp 
 	${MKDIR} -p ${OBJECTDIR}
@@ -139,11 +138,6 @@ ${OBJECTDIR}/matriz.o: matriz.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/matriz.o matriz.cpp
 
-${OBJECTDIR}/newfile.o: newfile.c 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/newfile.o newfile.c
-
 ${OBJECTDIR}/punto.o: punto.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
@@ -175,7 +169,7 @@ ${OBJECTDIR}/triangulo.o: triangulo.cpp
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c__
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/c__figuras
 
 # Subprojects
 .clean-subprojects:
